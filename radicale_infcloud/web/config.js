@@ -26,7 +26,10 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 // NOTE: if this option is enabled you will get notifications for devel builds!
 var globalEnableDevelBuilds=true;
 
-
+[web]
+type = radicale_infcloud
+infcloud_config = globalInterfaceLanguage='de_DE';
+                  globalTimeZone='Europe/Berlin';
 
 // NOTE: do not forget to execute the cache_update.sh script every time you
 // update this configuration file or any other files (otherwise your browser
