@@ -615,8 +615,8 @@ function logout(forceLogout)
 	//save settings
 	checkBeforeClose(false);
 	globalResourceIntervalID=null;
-	globalLoginUsername='';
-	globalLoginPassword='';
+	globalLoginUsername='Hola';
+	globalLoginPassword='Hola';
 	globalXMLCache=null;
 	globalResourceNumber=0;
 	globalResourceNumberCount=0;

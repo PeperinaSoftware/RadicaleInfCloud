@@ -289,24 +289,24 @@ infcloud_config = globalInterfaceLanguage='de_DE';
 // NOTE: for minimal/fast setup you need to set only the href and userAuth
 // options. It is safe/recommended to keep the remaining options unchanged!
 // Example:
-//var globalAccountSettings=[
-//	{
-//		href: 'https://server1.com:8443/caldav.php/USERNAME1/',
-//		userAuth:
-//		{
-//			userName: 'USERNAME1',
-//			userPassword: 'PASSWORD1'
-//		},
-//		timeOut: 90000,
-//		lockTimeOut: 10000,
-//		checkContentType: true,
-//		settingsAccount: true,
-//		delegation: true,
-//		hrefLabel: null,
-//		forceReadOnly: null,
-//		ignoreAlarms: false,
-//		backgroundCalendars: []
-//	},
+var globalAccountSettings=[
+	{
+		href: 'http://localhost:5232/.web/',
+		userAuth:
+		{
+			userName: 'Lautaro',
+			userPassword: '1234'
+		},
+		timeOut: 90000,
+		lockTimeOut: 10000,
+		checkContentType: true,
+		settingsAccount: true,
+		delegation: true,
+		hrefLabel: null,
+		forceReadOnly: null,
+		ignoreAlarms: false,
+		backgroundCalendars: []
+	}]
 //	{
 //		href: 'https://server2.com:8443/caldav.php/USERNAME2/',
 //		...
